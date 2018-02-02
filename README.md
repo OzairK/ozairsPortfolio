@@ -1,2 +1,2 @@
-# ozairsPortfolio
-html and css portfolio
+# OzairK.github.io
+Ozair Khan's Portfolio
