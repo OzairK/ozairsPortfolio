@@ -1,0 +1,136 @@
+
+
+/* The following code is to style all three pages */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px; 
+    color: #333;
+    background: #efeee7;
+  }
+
+
+  header {
+    background-color: #ffffff;
+    height: 90px;
+  }
+
+  h1 {
+    background-color:#4aaaa5;
+    font-size: 45px;
+    position: fixed; /* This is to make h1 sticky */
+    left: 90px;
+    width: 15%;
+    padding-top: 22.5px; /* one way to make element box bigger */
+    padding-bottom: 22.5px;
+    color: #ffffff;
+    text-align: center;
+    
+    
+  }
+
+
+
+  navigation{
+    width: 20%;
+    position: absolute; /* this make the navigation menu move relative to heder element */
+    right: 20px;
+    top: 30px;
+    
+  }
+
+  footer{
+    position:fixed; /* keeps footer on the bottom of the window */
+    bottom: 0;
+    background-color:gray;
+    Padding: 30px;
+    width: 100%;
+    text-align: center;
+    border-top: 10px solid #4aaaa5;
+   }
+
+   a{
+    display:inline-block; /*helps get rid of the - between the objects */
+    text-decoration: none;
+    color: gray;
+  }
+  
+
+
+
+  h2{
+    color: #4aaaa5;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  h3{
+    color: #4aaaa5;
+  }
+
+
+  .main_content{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    width: 55%;
+    margin-top: 50px;
+    margin-left: 90px;
+    float: left;             
+    padding-bottom: 20px;
+    color: gray;
+    line-height: 23px;
+  }
+  .My_Contact_Info {
+    position: fixed;
+    right: 100px;
+    margin: 50px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+
+  /* This code is specific for the Index page */
+  #My_Picture{
+    float: left;        /*makes the picture float to the left, and allows for the text to wrap around it */
+    width: 400px;
+    margin-right:20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+  }
+
+
+  /* This code is to style Contact page */
+
+
+  #Message_Box {    /*sizing the inputs*/
+    height: 150px;
+    width: 500px;
+  }
+
+  form{
+    position: relative;
+    left: 15%;
+  }
+
+  input{
+    margin-bottom: 10px;
+    width:500px;
+    color: gray;
+    
+  }
+
+  button{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+  /* Code is specific to Porflio page */
+  .Portfolio_Album{
+    margin-left: 50px;
+    letter-spacing: 50px; /* making space between images */
+  }
